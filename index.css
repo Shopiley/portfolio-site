@@ -1,10 +1,31 @@
 body{
-    margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
+    margin: 0;
 }
 
-h1{
+.right-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.left-cloud{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.name{
     font-family: "Sacramento", cursive;
     font-size: 5.625rem;
     color: #66BFBF;
@@ -22,56 +43,26 @@ h3{
     color: #11999E;
 }
 
-p{
-    line-height: 2;
+.profession{
+    font-weight: normal;
+}
+
+.profile{
+    width: 40%;
+    margin: auto;
 }
 
 hr{
-    border: dotted #EAF6F6 6px;
-    border-bottom: none;
+    border: dotted #eaf6f6 6px;
+    border-bottom: None;
     width: 4%;
     margin: 100px auto;
 }
 
-.top-container{
-    background-color: #e4f9f5;
-    padding-top: 100px;
-}
-
-.right-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.left-cloud{
-    position: absolute;
-    top: 300px;
-    left: 300px;
-}
-
-.prof{
-    font-weight: normal;
-}
-
-.middle-container{
-    margin: 100px 0;
-}
-
-.about-me{
-    margin: 100px auto;
-    width: 50%
-}
-
-.profile{
+.skills-container{
+    text-align: left;
     width: 50%;
     margin: auto;
-}
-
-.skill-row{
-    width: 50%;
-    margin: 100px auto;
-    text-align: left;
 }
 
 .computer{
@@ -81,44 +72,40 @@ hr{
 
 .writing{
     float: right;
-    width: 12%;
     margin-left: 30px;
+}
+
+.skill-row{
+    margin: 100px auto;
 }
 
 button{
     background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    border: None;
     color: white;
     font-size: 18px;
-    border: none;
     padding: 10px;
-    margin-top: 40px;
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
 }
 
-button:hover {
-    background-image: linear-gradient(to bottom, #30e3cb, #2BC4AD);
+button:hover{
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
 }
 
 .footer{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
+    background-color: #66bfbf;
+    padding: 50px 0 20px
 }
 
 .footer-link{
     color: #11999E;
     font-family: "Montserrat", sans-serif;
-    margin: 20px;
-    text-decoration: none;
+    text-decoration: None;
+    padding: 20px;
 }
 
 .footer-link:hover{
     color: white;
-}
-
-.copyright{
-    color: white;
-    font-size: 12px;
-    padding: 20px 0;
-
 }
